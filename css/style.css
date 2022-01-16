@@ -1,0 +1,197 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --secondary-color: #757575;
+}
+
+body {
+  font-family: var(--main-font);
+  color: #212121;
+}
+
+/* ############## POWTARZALNE STYLE ############## */
+.navigation-list,
+.features-list,
+.team-list,
+.about-list,
+.buttons-list,
+.projects-list,
+.address-list {
+  list-style: none;
+}
+
+.contact-link-mail:hover,
+.contact-link-mail:focus,
+.contact-link-phone:hover,
+.contact-link-phone:focus,
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-contact-link-mail:hover,
+.address-contact-link-mail:focus,
+.address-contact-link-phone:hover,
+.address-contact-link-phone:focus,
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.btn:hover,
+.btn:focus {
+  color: var(--main-color);
+}
+
+.btn,
+.portfolio-btn {
+  cursor: pointer;
+}
+/* ############## POWTARZALNE STYLE ############## */
+
+/* ############## Sekcja HEADER ############## */
+
+.navigation-main,
+.secondary-main {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.navigation-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.contact-link-mail,
+.contact-link-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/* ############## Koniec sekcji HEADER ############## */
+
+/* ############## Sekcja HERO   ############## */
+.main-header {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  background: var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.features-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ############## Koniec sekcji HERO ############## */
+
+/* ############## Czym się zajmujemy ############## */
+.secondary-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ############## Koniec sekcji Czym się zajmujemy ############## */
+
+/* ############## Nasz zespól ############## */
+.team-member {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
+.type-of-work-in-team {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ############## Koniec sekcji Nasz zespól ############## */
+
+/*##################### FOOTER #################*/
+.address-list-item,
+.address-contact-link-mail,
+.address-contact-link-phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+/*##################### END FOOTER #################*/
+
+/*##################### PORTFOLIO #################*/
+
+.portfolio-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/*##################### END PORTFOLIO #################*/
