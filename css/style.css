@@ -30,17 +30,28 @@ body {
 .address-contact-link-mail:hover,
 .address-contact-link-mail:focus,
 .address-contact-link-phone:hover,
-.address-contact-link-phone:focus,
-.portfolio-btn:hover,
-.portfolio-btn:focus,
-.btn:hover,
-.btn:focus {
+.address-contact-link-phone:focus {
   color: var(--main-color);
 }
 
 .btn,
 .portfolio-btn {
   cursor: pointer;
+}
+
+.contact-link-mail,
+.contact-link-mail,
+.contact-link-phone,
+.contact-link-phone,
+.navigation-list-link,
+.navigation-list-link,
+.address-contact-link-mail,
+.address-contact-link-mail,
+.address-contact-link-phone,
+.address-contact-link-phone,
+.navigation-main,
+.secondary-main {
+  text-decoration: none;
 }
 /* ############## POWTARZALNE STYLE ############## */
 
@@ -54,7 +65,18 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+}
+
+.logo-1 {
   color: var(--main-color);
+}
+
+.logo-2 {
+  color: #212121;
+}
+
+.logo-2-footer {
+  color: #ffffff;
 }
 
 .navigation-list-link {
@@ -63,6 +85,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  color: #212121
 }
 
 .contact-link-mail,
@@ -78,6 +101,10 @@ body {
 /* ############## Koniec sekcji HEADER ############## */
 
 /* ############## Sekcja HERO   ############## */
+.main-header-container {
+  background: #2F303A;
+}
+
 .main-header {
   font-style: normal;
   font-weight: 900;
@@ -86,6 +113,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .btn {
@@ -134,6 +162,10 @@ body {
 /* ############## Koniec sekcji Czym się zajmujemy ############## */
 
 /* ############## Nasz zespól ############## */
+.team {
+  background: #F5F4FA;
+}
+
 .team-member {
   font-style: normal;
   font-weight: 500;
@@ -153,7 +185,19 @@ body {
 /* ############## Koniec sekcji Nasz zespól ############## */
 
 /*##################### FOOTER #################*/
-.address-list-item,
+.footer {
+  background: #2F303A;
+}
+
+.address-list-item {
+   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .address-contact-link-mail,
 .address-contact-link-phone {
   font-style: normal;
@@ -161,6 +205,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 /*##################### END FOOTER #################*/
 
