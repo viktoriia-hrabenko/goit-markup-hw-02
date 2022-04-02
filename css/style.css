@@ -222,6 +222,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #2196f3;
+}
+
 .project-name {
   font-style: normal;
   font-weight: bold;
